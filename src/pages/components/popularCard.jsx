@@ -1,6 +1,6 @@
 import React from "react";
 import '../styles/popularCard.css'
-import Popular from "./exploreData";
+import Popular from "./ExploreData";
 
 function PopularCard (props) {
     const {image, title, description, price} = props;

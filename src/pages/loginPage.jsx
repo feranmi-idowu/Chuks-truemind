@@ -1,6 +1,6 @@
 import React from "react";
-import Footer from "./components/footer";
-import Login from "./components/login";
+import Footer from "./components/Footer";
+import Login from "./components/Login";
 
 function loginPage () {
   return (

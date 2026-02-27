@@ -1,4 +1,4 @@
-import SwallowData from "./swallowData";
+import SwallowData from "./SwallowData";
 import React from "react";
 function SwallowCard (props) {
     const {image, title, description, price} = props
