@@ -3,6 +3,7 @@ import Frk from "../../assets/images/Frk.png";
 import Bus from "../../assets/images/Bus.png";
 import { Link } from "react-router-dom";
 import '../styles/landing.css'
+import React from "react";
 
 function Landing() {
     return(

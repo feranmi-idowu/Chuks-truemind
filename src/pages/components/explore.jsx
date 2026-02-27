@@ -1,3 +1,4 @@
+import React from "react";
 import Im1 from "../../assets/images/Im1.png";
 import '../styles/home.css'
 import Popular from "./exploreData";

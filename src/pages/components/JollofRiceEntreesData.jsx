@@ -1,5 +1,7 @@
 import RiceChiken from "../../assets/images/jRice&Chiken.png";
 import jRiceFish from "../../assets/images/jRiceFish.png";
+
+
 const JollofRiceEntrees = [
     {
         image: jRiceFish,

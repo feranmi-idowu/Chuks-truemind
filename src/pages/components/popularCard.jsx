@@ -1,3 +1,4 @@
+import React from "react";
 import '../styles/popularCard.css'
 import Popular from "./exploreData";
 

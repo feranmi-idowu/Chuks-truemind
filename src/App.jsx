@@ -1,4 +1,4 @@
-
+import React from "react";
 import LandingPage from "./pages/landingPage";
 import LoginPage from "./pages/loginPage";
 import SignInPage from "./pages/signInPage";
