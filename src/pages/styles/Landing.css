@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Island+Moments&family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.imgContainer {
+    flex: 1; 
+    opacity: 1;
+    max-width: 720px;;
+    
+}
+.imgContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* Right content*/
+.contentsContainer {
+    flex: 1;
+    background: #846969;
+    background-color: #f4f6f8;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 720;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.logoContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 574px;
+    height: 54px;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+
+
+.chuks {
+    width: 183px;
+    height: 41px;
+    opacity: 1;
+
+    font-family: Island Moments;
+    font-weight: 400px;
+    font-style: Regular;
+    font-size: 40.81px;
+    text-box-trim: none;
+    line-height: 40.81px;
+    letter-spacing: 0%;
+    flex: 1;
+    color: #FF7A18;
+}
+
+/*.signInContainer {
+    
+    height: 54px;
+    gap: 16px;
+    padding-top: 15px;
+    padding-right: 19.6px;
+    padding-bottom: 15px;
+    padding-left: 19.6px;
+    border: 2px solid #1e90ff;
+    
+    color: #1E88E5;
+    flex: 1;
+
+}*/
+
+.signIn {
+    height: 54px;
+    gap: 16px;
+    padding-top: 15px;
+    padding-right: 19.6px;
+    padding-bottom: 15px;
+    padding-left: 19.6px;
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color:  #1E88E5;
+    background: transparent;
+    border: 2px solid #1e90ff;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.heroFrame{
+    display: flex;
+    flex-direction: column;
+    width: 577px;
+    height: fit-content;
+    gap: 10px;
+    padding: 10px;
+    margin: 80px auto 0 auto;
+
+    
+
+}
+.heroContainer {
+    display: flex;
+    flex-direction: column;
+    width: 557px;
+    height: auto;   
+}
+
+.heroH1{
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: 0%;
+    color:  #1F2937;
+
+}
+
+.heroP {
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color:  #1F2937;
+
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    
+    width: auto;
+    height: auto;
+    gap: 20px;
+    
+}
+
+.feature {
+   flex: 1;
+   display: flex;
+  
+   
+   gap: 11px;
+   width: 185px;
+   align-items: center;
+   padding-top: 4px;
+   padding-bottom: 4px;
+
+
+}
+
+.featureText{
+    width: auto;
+    height: 24px;
+    margin: 0 auto;
+    flex: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+.btnContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+}
+.btn1 {
+    width: auto;
+    height: 60;
+
+    opacity: 1;
+    gap: 16px;
+    border-radius: 10px;
+    padding-top: 18px;
+    padding-right: 196px;
+    padding-bottom: 18px;
+    padding-left: 196px;
+    font-family: Inter;
+    background-color: #FF7A18;
+    border: 0.5px solid #FF7A18;
+
+font-weight: 600;
+font-style: Semi Bold;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+color:  #FFFFFF;
+
+
+
+}
+
+.btn2 {
+    width: 557;
+    height: 60;
+    opacity: 1;
+    gap: 16px;
+    border-radius: 10px;
+    border-width: 2px;
+    padding-top: 18px;
+    padding-right: 196px;
+    padding-bottom: 18px;
+    padding-left: 196px;
+    border: 2px solid #1e90ff;
+
+    
+
+}
+
+.btn2Text {
+    font-family: Inter;
+font-weight: 600;
+font-style: Semi Bold;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+color: #1e90ff;
+
+min-width: 164;
+height: 24;
+
+opacity: 1;
+padding-bottom: 70px;
+
+}
+
+.ctpContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 577px;
+    padding-top: 70px;
+   margin-left: auto;
+   margin-right: auto;
+   align-items: center;
+
+opacity: 1;
+margin: 40px auto;
+gap: 10px;
+padding: 10px;
+}
+
+
+.tpContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+   
+}
+
+.pP, .tS{
+    text-decoration: none;
+}
+
+hr {
+    width: 100%;
+    max-width: 555px;
+    color: #000;
+}

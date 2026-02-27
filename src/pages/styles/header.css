@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Island+Moments&family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+height: 90px;
+opacity: 1;
+gap: 45px;
+padding-top: 18px;
+padding-right: 48px;
+padding-bottom: 18px;
+padding-left: 48px;
+
+background:#FFFFFF;
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+
+.brand-logo-header {
+    width: 100%;
+    max-width: 183px;
+height: 41px;
+
+opacity: 1;
+
+font-family: Island Moments;
+font-weight: 400;
+font-style: Regular;
+font-size: 40.81px;
+line-height: 40.81px;
+letter-spacing: 0%;
+color: #FF7A18;
+}
+
+.navbar-header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 911px;
+height: 44;
+opacity: 1;
+gap: 10px;
+padding: 10px;
+justify-content: space-between;
+text-decoration: none;
+}
+
+.navlink {
+    width: 100%;
+    max-width: 215.25px;
+    height: 24px;
+text-decoration: none;
+opacity: 1;
+padding: 100[x];
+color: black;
+}
+
+.login-header{
+
+    width: 160px;
+height: 54px;
+
+opacity: 1;
+gap: 16px;
+padding-top: 15px;
+border-radius: 10px;
+padding-bottom: 15px;
+
+background: #FF7A18;
+border: #FF7A18;
+color: #ffffff;
+
+}
+
+.navlink.active {
+text-decoration: none;
+color: #FF7A18;
+}
