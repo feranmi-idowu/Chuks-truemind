@@ -77,7 +77,7 @@ function Explore() {
                         <div className="home-popularCards">
                             {SwallowData.map(swallowData => (
                                 <SwallowCard 
-                                    key={swallowData.title}
+                                    key={swallowData.key}
                                     image={swallowData.image}
                                     title={swallowData.title}  
                                     description={swallowData.description}   
