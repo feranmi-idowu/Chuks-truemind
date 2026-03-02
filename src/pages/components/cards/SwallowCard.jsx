@@ -1,8 +1,9 @@
+import SwallowData from "../data/SwallowData";
+import '../../styles/popularCard.css'
 import React from "react";
-import '../styles/popularCard.css'
 
-function JollofCard (props) {
-    const {image, title, description, price} = props;
+function SwallowCard (props) {
+    const {image, title, description, price} = props
     return (
         <div className="card-container">
             <div className="card-image-wrapper">
@@ -17,8 +18,7 @@ function JollofCard (props) {
                 </div>
             </div>
         </div>
-        
     )
 }
 
-export default JollofCard;
+export default SwallowCard;

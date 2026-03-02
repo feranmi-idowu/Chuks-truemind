@@ -1,12 +1,12 @@
 import React from "react";
 import Im1 from "../../assets/images/Im1.png";
 import '../styles/home.css'
-import Popular from "./ExploreData";
-import JollofRiceEntrees from "./JollofRiceEntreesData"
-import PopularCard from "./PopularCard";
-import JollofCard from "./JollofCards";
-import SwallowCard from "./SwallowCard";
-import SwallowData from "./SwallowData";
+import Popular from "./data/PopularData";
+import JollofRiceEntrees from "./data/JollofRiceEntreesData"
+import PopularCard from "./cards/PopularCard";
+import JollofCard from "./cards/JollofCards";
+import SwallowCard from "./cards/SwallowCard";
+import SwallowData from "./data/SwallowData";
 import { useState } from "react";
 
 function Explore() {

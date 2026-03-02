@@ -1,5 +1,5 @@
-import amala from "../../assets/images/amala.png"
-import fufu from "../../assets/images/fufu.png"
+import amala from "../../../assets/images/amala.png"
+import fufu from "../../../assets/images/fufu.png"
 
 const SwallowData = [
     {

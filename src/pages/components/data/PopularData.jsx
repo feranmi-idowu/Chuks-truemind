@@ -1,8 +1,8 @@
-import RiceChiken from "../../assets/images/jRice&Chiken.png";
-import eba from "../../assets/images/eba&egusi.png";
-import poundedYam from "../../assets/images/poundedYam.png";
-import pepperSnail from "../../assets/images/pepperSnail.png";
-import grilledTilapia from "../../assets/images/grilledTilapia.png";
+import RiceChiken from "../../../assets/images/jRice&Chiken.png"; 
+import eba from "../../../assets/images/eba&egusi.png";
+import poundedYam from "../../../assets/images/poundedYam.png";
+import pepperSnail from "../../../assets/images/pepperSnail.png";
+import grilledTilapia from "../../..//assets/images/grilledTilapia.png";
 
 
 const Popular = [
