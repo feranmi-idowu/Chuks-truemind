@@ -1,5 +1,5 @@
-import Footer from "../components/Footer";
-import SignIn from "../components/SignIn";
+import Footer from "./components/Footer";
+import SignIn from "./components/SignIn";
 import React from "react";
 function SignInPage () {
   return (

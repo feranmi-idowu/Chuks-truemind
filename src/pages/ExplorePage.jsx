@@ -1,6 +1,6 @@
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import Explore from "../components/Explore";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Explore from "./components/Explore";
 import React from "react";
 function ExplorePage () {
     return (
