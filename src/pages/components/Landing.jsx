@@ -2,7 +2,7 @@ import Im1 from "../../assets/images/Im1.png";
 import Frk from "../../assets/images/Frk.png";
 import Bus from "../../assets/images/Bus.png";
 import { Link } from "react-router-dom";
-import '../styles/landing.css'
+import '../styles/Landing.css'
 import React from "react";
 
 function Landing() {
