@@ -47,6 +47,7 @@ function Explore() {
                     <section id="popular" className="popular-section">
                         <h1>Popular</h1>
                         <div className="home-popularCards">
+                        
                             {Popular.map(popular => (
                                 <PopularCard 
                                     key={popular.key}
