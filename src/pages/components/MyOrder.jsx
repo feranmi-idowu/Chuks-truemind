@@ -1,7 +1,7 @@
 import React from 'react';
 import MyOrderData from './data/MyOrderData'
 import MyOrderCard from './cards/MyOrderCard';
-import '../styles/myorder.css';
+import '../styles/MyOrder.css';
 
 function MyOrder() {
   return (
