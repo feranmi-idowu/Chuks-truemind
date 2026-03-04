@@ -1,14 +1,16 @@
 import Footer from "./components/Footer";
 import Header from "./components/Header"
 import React from "react";
+import MyOrder from "./components/MyOrder";
 
-function AccountPage () {
+function MyOrderPage () {
     return (
-        <div id="Account">
+        <div id="MyOrder">
             <Header />
+            <MyOrder/>
             <Footer />
         </div>
     )
 }
 
-export default AccountPage;
+export default MyOrderPage;

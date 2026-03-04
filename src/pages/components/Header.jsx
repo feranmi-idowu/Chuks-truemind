@@ -9,7 +9,7 @@ function Header() {
             <nav className="navbar-header" >
                 <NavLink className="navlink" to="/home">Home</NavLink>
                 <NavLink className="navlink" to="/Explore" >Explore</NavLink>
-                <NavLink className="navlink" to="/My-Order" >My Order</NavLink>
+                <NavLink className="navlink" to="/MyOrder" >My Order</NavLink>
                 <NavLink className="navlink" to="/Account" >Account</NavLink>
             </nav>
             <button className="login-header">login</button>

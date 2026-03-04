@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Island+Moments&family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.cart-wrapper-background {
+background-color: #F3F4F6;
+display: flex;
+padding-left: 40px;
+padding-right: 40px;
+padding-top: 80px;
+padding-bottom: 80px;
+}
+.cart-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 1352px;
+  width: 100%;
+  margin: 50px auto;
+  background: #FFFFFF;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  font-family: sans-serif;
+}
+
+.order-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #f0f0f0;
+padding-top: 7px;
+padding-right: 24px;
+padding-bottom: 7px;
+padding-left: 24px;
+gap: 35px;
+opacity: 1;
+border-radius: 5px;
+border-width: 0.5px;
+justify-content: space-between;
+  margin-bottom: -1px; /* Borders touch without doubling up */
+}
+
+.image-container img {
+ display: block;
+  max-width: 190px;
+height: 173.93382263183594px;
+opacity: 1;
+border-radius: 5.59px;
+  
+}
+
+.item-info {
+    width: 100%;
+    max-width: 455.77227783203125px;
+height: 94px;
+gap: 18px;
+
+opacity: 1;
+
+}
+
+.item-info h3 {
+  margin: 0 0 5px 0;
+  font-family: Inter;
+font-weight: 700;
+font-style: Bold;
+font-size: 32px;
+line-height: 42px;
+letter-spacing: 0%;
+
+}
+
+.item-info p {
+  margin: 0;
+  color: #4B5563;
+  font-family: Inter;
+font-weight: 500;
+font-style: Medium;
+font-size: 24px;
+line-height: 34px;
+letter-spacing: 0%;
+
+}
+
+.quantity-section {
+  display: flex;
+  max-width: 223.2941131591797px;
+  align-items: center;
+  gap: 12px;
+  justify-content: center;
+}
+
+.control-btn {
+  background: #ddd;
+  border: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.count-display {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.price-tag {
+  color: #f36d21;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.delete-icon {
+  background: #f36d21;
+  color: white;
+  border: none;
+  border-radius: 4px;
+ width: 31.4501953125px;
+height: 24.461265563964844px;
+top: 8.74px;
+left: 5.24px;
+opacity: 1;
+
+  cursor: pointer;
+}
+
+.footer-link {
+  color: #2b7de9;
+  font-size: 0.9rem;
+  margin-top: 15px;
+  display: block;
+  text-decoration: none;
+}
