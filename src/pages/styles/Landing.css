@@ -101,6 +101,7 @@
     border: 2px solid #1e90ff;
     border-radius: 10px;
     flex: 1;
+    text-decoration: none;
 }
 
 .heroFrame{

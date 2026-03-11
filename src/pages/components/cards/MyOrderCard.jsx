@@ -11,7 +11,7 @@ const MyOrderCard = ({ item }) => {
   return (
     <div className="order-card">
       <div className="image-container">
-        <img src={item.image} alt={item.name} />
+        <img loading="eager" fetchpriority="high" src={item.image} alt={item.name} />
       </div>
 
       <div className="item-info">

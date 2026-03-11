@@ -143,24 +143,23 @@ padding-left: 10px;
 }
 
 .popular-section {
-
+width: 100%;
     padding-top: 24px;
 opacity: 1;
 gap: 24px;
 justify-content: center;
+justify-items: auto;
 align-items: center;
 background: var(--Soft-Gray, #F3F4F6);
-margin: 0 auto;
-
-justify-items: center;
-
-
 }
+
+
 .home-popularCards {
     display: flex;
     flex-wrap: wrap;
 flex-direction: row;
-
+width: 100%;
+  max-width: 1354px;
 opacity: 1;
 gap: 43px;
 padding-top: 2px;
